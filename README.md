@@ -1,5 +1,5 @@
 
-#HC-SR04 distance/proximity Sensor
+# HC-SR04 distance/proximity Sensor
 
 **HC-SR04** comes complete with ultrasonic transmitter & receiver modules.
 The Ranging Distance is around 2cm – 400cms, with Resolution of 0.3cm.
@@ -19,7 +19,7 @@ Calculate speed of sound in m/s: speed of sound = 331.3 + (0.606*temperature) + 
 Humidity impact on speed of sound is negligible
 
 -------
-###HC-SR04 Applications:
+## HC-SR04 Applications:
   1). Detecting objects/obstacles for navigation.
   2). Localization and avoiding/over taking obstacles.
   3). Detecting distance to nearest object.
@@ -27,17 +27,17 @@ Humidity impact on speed of sound is negligible
   5). Useable for robots, intruder detection or proximity alarms
 
 ------
-###Connecting HC-SR04 to arduino:
+## Connecting HC-SR04 to arduino:
 
-   | HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo.|
-   ------------------------------------------------------------------|
-   | Ground/GND | Arduino GND   |
-   ------------------------------
-   | Power/VCC | 5 volts arduino pin |
+   HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo.
+    
+    Ground/GND | Arduino GND   |
    -----------------------------------
-   | Trigger Pin (OUTPUT) | Arduino Digital Pin 9 |
+    Power/VCC | 5 volts arduino pin 
+   -----------------------------------
+    Trigger Pin (OUTPUT) | Arduino Digital Pin 9 
    ------------------------------------------------
-   | Echo Pin (INPUT) | Arduino Digital Pin 10    |
+    Echo Pin (INPUT) | Arduino Digital Pin 10 
    ------------------------------------------------
 
 --------------------
