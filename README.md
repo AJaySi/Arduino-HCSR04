@@ -1,4 +1,7 @@
-HC-SR04 comes complete with ultrasonic transmitter & receiver modules.
+
+#HC-SR04 distance/proximity Sensor
+
+**HC-SR04** comes complete with ultrasonic transmitter & receiver modules.
 The Ranging Distance is around 2cm – 400cms, with Resolution of 0.3cm.
 
 HC-SR04 uses sonar to detect object, using reflected waves,
@@ -8,14 +11,15 @@ calculate the distance to an object.
 By measuring time difference between sending & receiving the sound
 waves, the distance between the sensor and the object can be calculated.
 
-Note: Speed on sound depends on present temperature and increase
+**Note**: Speed on sound depends on present temperature and increase
 0.6m/s per 1 degress change(wikipedia).
 To get accurate readings, knowing temperature with sesnors like BMP280, should be considered.
-Calculate speed of sound in m/s: speedofsound = 331.3 + (0.606*temperature) + (0.0124 * humidity);
+
+Calculate speed of sound in m/s: speed of sound = 331.3 + (0.606*temperature) + (0.0124 * humidity);
 Humidity impact on speed of sound is negligible
 
 -------
-HC-SR04 Applications:
+###HC-SR04 Applications:
   1). Detecting objects/obstacles for navigation.
   2). Localization and avoiding/over taking obstacles.
   3). Detecting distance to nearest object.
@@ -23,7 +27,7 @@ HC-SR04 Applications:
   5). Useable for robots, intruder detection or proximity alarms
 
 ------
-Connecting HC-SR04 to arduino:
+###Connecting HC-SR04 to arduino:
 
    | HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo.|
    ------------------------------------------------------------------|
