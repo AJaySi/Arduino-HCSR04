@@ -24,11 +24,17 @@ HC-SR04 Applications:
 
 ------
 Connecting HC-SR04 to arduino:
-   HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo.
-   Ground/GND : Arduino GND
-   Power/VCC : 5 volts arduino pin
-   Trigger Pin (OUTPUT) : Arduino Digital Pin 9
-   Echo Pin (INPUT) : Arduino Digital Pin 10
+
+   | HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo.|
+   ------------------------------------------------------------------|
+   | Ground/GND | Arduino GND   |
+   ------------------------------
+   | Power/VCC | 5 volts arduino pin |
+   -----------------------------------
+   | Trigger Pin (OUTPUT) | Arduino Digital Pin 9 |
+   ------------------------------------------------
+   | Echo Pin (INPUT) | Arduino Digital Pin 10    |
+   ------------------------------------------------
 
 --------------------
 
